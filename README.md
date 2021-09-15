@@ -6,30 +6,24 @@
 
 ```
 git clone git@github.com:vivekgupta1mg/sanic_pipeline.git
-
-   pip install -r requirements.txt
-   python3 -m app.service
-   ```
-   
-
-
-
-
+pip install -r requirements.txt
+python3 -m app.service
+```
 #### How to run sample api
-1. hello world
+1. Use basic file with sanic_blueprint
 
-``` make blueprint and registered blueprints in blueprint_group
-    
+``` 
+make blueprint and registered blueprints in blueprint_group
 
+curl --request POST \
+  --url http://0.0.0.0:8000/basic/
 ```
 
-2. use pytest
+2. Use pytest
 ```
-   install pytest & sanic_testing 
-   run python3 -m pytest
+   Install pytest & sanic_testing 
+   Run python3 -m pytest
 
 ```
-
-#### Sample response structure
 
 
