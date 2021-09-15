@@ -7,6 +7,6 @@ basic = Blueprint("basic", url_prefix="/basic")
 
 
 
-@basic.route("/")
+@basic.route("/",methods=["POST"])
 async def test(request):
     return json({"hello": "world"})
